@@ -1,0 +1,9 @@
+{
+	"name": "instanciadf",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6f017182-38fc-4286-8b47-a21ed94d35ee",
+		"tenantId": "a6fe1b1e-97b7-422d-b1bc-e37254398663"
+	}
+}
