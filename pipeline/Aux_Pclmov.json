@@ -1,0 +1,28 @@
+{
+	"name": "Aux_Pclmov",
+	"properties": {
+		"activities": [
+			{
+				"name": "Notebook1",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/gszerman@frba.utn.edu.ar/Aux_Pclmov"
+				},
+				"linkedServiceName": {
+					"referenceName": "Conexion_DFACTORY_DBRICKS",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
