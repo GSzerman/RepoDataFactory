@@ -1,0 +1,88 @@
+{
+	"name": "Aviones_Origen",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "datasets_pruebas",
+				"fileSystem": "container"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Activity Period",
+				"type": "String"
+			},
+			{
+				"name": "Operating Airline",
+				"type": "String"
+			},
+			{
+				"name": "Operating Airline IATA Code",
+				"type": "String"
+			},
+			{
+				"name": "Published Airline",
+				"type": "String"
+			},
+			{
+				"name": "Published Airline IATA Code",
+				"type": "String"
+			},
+			{
+				"name": "GEO Summary",
+				"type": "String"
+			},
+			{
+				"name": "GEO Region",
+				"type": "String"
+			},
+			{
+				"name": "Activity Type Code",
+				"type": "String"
+			},
+			{
+				"name": "Price Category Code",
+				"type": "String"
+			},
+			{
+				"name": "Terminal",
+				"type": "String"
+			},
+			{
+				"name": "Boarding Area",
+				"type": "String"
+			},
+			{
+				"name": "Passenger Count",
+				"type": "String"
+			},
+			{
+				"name": "Adjusted Activity Type Code",
+				"type": "String"
+			},
+			{
+				"name": "Adjusted Passenger Count",
+				"type": "String"
+			},
+			{
+				"name": "Year",
+				"type": "String"
+			},
+			{
+				"name": "Month",
+				"type": "String"
+			}
+		]
+	}
+}
