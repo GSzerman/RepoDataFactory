@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "datasets_pruebas",
 				"fileSystem": "container"
 			},
 			"columnDelimiter": ",",
